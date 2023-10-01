@@ -22,10 +22,10 @@ body {
     position: relative;
 }
 .white {
-    background-color: #f0d9b5;
+    background-color: #f5ebdc;
 }
 .black {
-    background-color: #b58863;
+    background-color: #63b0b5;
 }
 .coordinate {
     height:auto;
@@ -43,10 +43,10 @@ body {
     left:auto;
 }
 .whiteText {
-    color:#f0d9b5;
+    color:#f5ebdc;
 }
 .blackText {
-    color:#b58863;
+    color:#63b0b5;
 }
 .piece {
     width:100%;
