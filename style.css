@@ -1,0 +1,171 @@
+/* Set a background color for the body */
+body {
+  background-color: rgb(70, 67, 67);
+  font-family: Arial, sans-serif;
+  grid-template-columns: 50px auto;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: 8vw;
+  border: solid black 2px;
+  margin-left: 30px;
+}
+
+header h1 {
+  font-size: 110px;
+  width: 63vw;
+  padding: 0 15px;
+  margin: 0;
+  color: #639bb5;
+  -webkit-text-stroke-color: #e3dbcf;
+  -webkit-text-stroke-width: 2px;
+}
+
+#signInButton {
+  width: 20vw;
+  height: 125px;
+  font-size: 80px;
+  color: #639bb5;
+  background-color: #e3dbcf;
+  border: solid black 2px;
+  padding: 0px;
+  margin: 15px;
+  margin-right: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: left;
+}
+
+.sideNav {
+  background-color: #e3dbcf;
+  color: #639bb5;
+  font-size: 30px;
+  height: 80vw;
+  width: 10vw;
+  margin: 10px;
+  margin-left: 30px;
+  border: solid black 2px;
+}
+
+.chessBoard {
+  height: 80vw;
+  width: 80vw;
+  margin: 10px;
+  border: solid black 2px;
+}
+
+.square {
+  width: 12.5%;
+  height: 12.5%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.white {
+  background-color: #e3dbcf;
+}
+
+.black {
+  background-color: #639bb5;
+}
+
+.coordinate {
+  height: auto;
+  display: flex;
+  bottom: 4%;
+  left: 4%;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rank {
+  top: 4%;
+  right: 4%;
+  left: auto;
+}
+
+.whiteText {
+  color: #e3dbcf;
+}
+
+.blackText {
+  color: #639bb5;
+}
+
+.piece {
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.piece img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.scoreMeter {
+  height: 80vw;
+  width: 2vw;
+  margin: 10px;
+  border: solid black 2px;
+}
+
+.blackScoreMeter {
+  background-color: #639bb5;
+  height: 40vw;
+}
+
+.whiteScoreMeter {
+  background-color: #e3dbcf;
+  height: 40vw;
+}
+
+.gameEval {
+  background-color: #e3dbcf;
+  height: 80vw;
+  width: 20vw;
+  margin: 10px;
+  margin-right: 30px;
+  border: solid black 2px;
+}
+
+.blackTakenPieces {
+  margin: 10px;
+  height: 5vw;
+}
+
+.FEN {
+  margin: 15px;
+  height: 5vw;
+  border: solid rgb(70, 67, 67) 2px;
+  color: #639bb5;
+  font-size: 30px;
+}
+
+.ALG {
+  margin: 15px;
+  height: 60vw;
+  border: solid rgb(70, 67, 67) 2px;
+  color: #639bb5;
+  font-size: 30px;
+}
+
+.whiteTakenPieces {
+  margin: 10px;
+  height: 5vw;
+}
