@@ -77,6 +77,10 @@ img{
     height: auto;
 }
 
+.turn {
+    font-size: 30px;
+    color: rgb(227, 220, 220);
+}
 
 @media (min-width:600px) {
     .chessBoard {
