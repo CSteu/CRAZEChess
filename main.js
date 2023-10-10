@@ -299,7 +299,7 @@ function displayPromotionChoices(
 
 function createChessPiece(pieceType, color, pieceClass) {
   let pieceName =
-    ""
+    "/pieces/" +
     color.charAt(0) +
     pieceType.charAt(0).toUpperCase() +
     ".svg";
@@ -463,6 +463,7 @@ function drag(ev) {
       pieceObject,
       boardSquaresArray
     );
+    console.log(legalSquares);
     let legalSquaresJson = JSON.stringify(legalSquares);
     ev.dataTransfer.setData("application/json", legalSquaresJson);
   }
