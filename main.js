@@ -299,7 +299,7 @@ function displayPromotionChoices(
 
 function createChessPiece(pieceType, color, pieceClass) {
   let pieceName =
-    "./pieces/" +
+    "CRAZEChess/pieces/" +
     color.charAt(0) +
     pieceType.charAt(0).toUpperCase() +
     ".svg";
